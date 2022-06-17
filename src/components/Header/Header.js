@@ -40,7 +40,7 @@ const Header = () =>  (
     <Div3>
       <Tooltip title={<h1>Resume</h1>}>
         <SocialIcons href="https://drive.google.com/file/d/1LqqaNsr2vqVm3g10cLDhjamg4ZitSjkD/view?usp=sharing" target="_blank">
-          <AiFillFilePdf size="3rem" />
+          <AiFillFileText size="3rem" />
           {/* <ImgResume src='/images/resume.png' /> */}
         </SocialIcons>
       </Tooltip>
