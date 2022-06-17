@@ -1,10 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillCrown, AiFillFile, AiFillFilePdf, AiFillFileText, AiFillGithub, AiFillIdcard, AiFillInstagram, AiFillLinkedin, AiFillProfile } from 'react-icons/ai';
+import { AiFillFileText, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 import { Tooltip } from '@material-ui/core';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
-import { ImgResume } from '../../styles/GlobalComponents';
 
 const Header = () =>  (
   <Container>
@@ -22,12 +21,12 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <Link href="#skills">
           <NavLink>Skills</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#work">
+        <Link href="#exp">
           <NavLink>Experience</NavLink>
         </Link>
       </li>
@@ -46,12 +45,12 @@ const Header = () =>  (
       </Tooltip>
       <Tooltip title={<h1>Github</h1>}>
         <SocialIcons href="https://github.com/hueiiming/" target="_blank">
-          <AiFillGithub size="3rem" />
+          <AiFillGithub style={{cursor: "pointer"}} size="3rem" />
         </SocialIcons>
       </Tooltip>
       <Tooltip title={<h1>LinkedIn</h1>}>
         <SocialIcons href="https://www.linkedin.com/in/lim-huei-ming/" target="_blank">
-          <AiFillLinkedin size="3rem" />
+          <AiFillLinkedin style={{cursor: "pointer"}} size="3rem" />
         </SocialIcons>
       </Tooltip>
     </Div3>

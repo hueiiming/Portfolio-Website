@@ -1,16 +1,15 @@
-import { DialogActions } from '@material-ui/core';
 import React from 'react';
-import { DiBackbone, DiBrackets, DiCode, DiFirebase, DiJenkins, DiMootools, DiReact, DiTechcrunch, DiZend } from 'react-icons/di';
+import { DiCode, DiFirebase, DiJenkins } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <Section id="tech">
+  <Section id="skills">
     <SectionDivider />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Skills</SectionTitle>
     <SectionText>
-      I've worked with a couple of companies as a Software Engineer and a Web Developer
+      I've worked with a couple of companies as a Software Engineer and a Web Developer where I've honed my programming skills and knowledge 
     </SectionText>
     <List>
       <ListItem>

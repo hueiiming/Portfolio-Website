@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import {useEffect,  useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
@@ -30,7 +31,9 @@ function BackToTopButton() {
         {backToTopButton && (
             <Tooltip title={<h1>Back to top</h1>} placement="left">
                 <ButtonTop onClick = {scrollUp}>
-                    <FontAwesomeIcon icon={faChevronUp} color='#FFF' size="5x" />
+                    <Link href="/">
+                        <FontAwesomeIcon icon={faChevronUp} color='#FFF' size="5x" />
+                    </Link>
                 </ButtonTop>
             </Tooltip>
         )}

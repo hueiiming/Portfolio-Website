@@ -11,6 +11,7 @@ import { Section } from '../styles/GlobalComponents';
 const Home = () => {
   return (
     <Layout>
+      <title>Huei Ming's Portfolio</title>
       <Section grid>
         <Hero />
          <BgAnimation /> 

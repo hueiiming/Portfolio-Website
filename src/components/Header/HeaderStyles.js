@@ -124,6 +124,5 @@ border-radius: 50px;
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
-    
   }
 `
