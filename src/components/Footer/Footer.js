@@ -3,8 +3,7 @@ import { AiFillFileText, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { Tooltip } from '@material-ui/core';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkItemA, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkItemA, LinkList, LinkTitle, Slogan, SocialIcons, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
   return (

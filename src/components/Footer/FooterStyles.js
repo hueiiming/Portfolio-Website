@@ -38,6 +38,7 @@ export const LinkItem = styled.p`
 		font-size: 8px;
 		line-height: 14px;
 		margin-bottom: 8px;
+		margin-left:  -10px;
 		display: flex;
 		align-items: center;
 	}
@@ -61,12 +62,15 @@ export const LinkItemA = styled.a`
 		font-size: 16px;
 		line-height: 28px;
 		display: flex;
+		margin-top: 8px;
+    	margin-left: -85px;
 	}
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 8px;
+		font-size: 10px;
 		line-height: 14px;
-		margin-bottom: 8px;
+		margin-top: 10px;
+		margin-left: -45px;
 		display: flex;
 		align-items: center;
 	}
@@ -87,6 +91,17 @@ justify-content: space-between;
 	width: 100%;
   flex-direction: column;
 }
+`
+export const SocialIcons = styled.a`
+transition: 0.3s ease;
+color: white;
+border-radius: 50px;
+  padding: 8px;
+&:hover {
+    background-color: #212d45;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
 `
 
 export const CompanyContainer = styled.div`
