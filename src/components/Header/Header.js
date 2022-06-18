@@ -9,32 +9,32 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20px" }}>
+        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "2px" }}>
           <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
         </a>
       </Link>
     </Div1>
     <Div2>
-      <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#skills">
-          <NavLink>Skills</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#exp">
-          <NavLink>Experience</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#contact">
-          <NavLink>Contact</NavLink>
-        </Link>
-      </li>
+        <li>
+          <Link href="#projects">
+            <NavLink>Projects</NavLink>
+          </Link>
+        </li>
+        <li>
+          <Link href="#skills">
+            <NavLink>Skills</NavLink>
+          </Link>
+        </li>
+        <li>
+          <Link href="#exp">
+            <NavLink>Experience</NavLink>
+          </Link>
+        </li>
+        <li>
+          <Link href="#contact">
+            <NavLink>Contact</NavLink>
+          </Link>
+        </li>
     </Div2>
     <Div3>
       <Tooltip title={<h1>Resume</h1>}>

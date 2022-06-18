@@ -6,7 +6,7 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 const data = [
   { number: '1st', text: 'iCodeiTell Competition'},
   { number: 'iPREP', text: 'Industry Preparation for Pre-graduate'},
-  { number: 'Distinction', text: 'For every Programming projects every Semester 2017-2019'},
+  { number: 'SAP Intern', text: 'Final year Software Engineer Internship'},
   { number: 'Director\'\s List', text: 'Semester 1 2017', }
 ];
 

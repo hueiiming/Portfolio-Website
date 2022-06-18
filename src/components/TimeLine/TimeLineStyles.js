@@ -45,12 +45,12 @@ export const CarouselItem = styled.div`
   max-width: 330px;
 
   @media ${props => props.theme.breakpoints.md} {
-    max-width: 190px;
+    max-width: 220px;
   }
   
   @media ${props => props.theme.breakpoints.sm} {
     margin-left: 32px;
-    min-width: 190px;
+    min-width: 220px;
     background: #0E131F;
     padding: 4px;
     align-content: start;
@@ -111,7 +111,7 @@ export const CarouselItemText = styled.p`
     padding-right: 32px;
   }
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 16px;
     padding-right: 0;
   }

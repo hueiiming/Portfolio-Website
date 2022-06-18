@@ -67,10 +67,10 @@ export const LinkItemA = styled.a`
 	}
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 10px;
+		font-size: 12px;
 		line-height: 14px;
-		margin-top: 10px;
-		margin-left: -45px;
+		margin-top: 15px;
+		margin-left: -60px;
 		display: flex;
 		align-items: center;
 	}

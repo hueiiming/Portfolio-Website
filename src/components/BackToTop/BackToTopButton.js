@@ -32,7 +32,9 @@ function BackToTopButton() {
             <Tooltip title={<h1>Back to top</h1>} placement="left">
                 <ButtonTop onClick = {scrollUp}>
                     <Link href="/">
-                        <FontAwesomeIcon icon={faChevronUp} color='#FFF' size="5x" />
+                        <div>
+                            <FontAwesomeIcon icon={faChevronUp} color='#FFF' size="5x" />
+                        </div>
                     </Link>
                 </ButtonTop>
             </Tooltip>

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection, Img } from './HeroStyles';
+import { Section, LeftSection, Img } from './HeroStyles';
 
 const Hero = () => (
   <Section row nopadding>

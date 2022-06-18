@@ -13,12 +13,14 @@ export const ButtonTop = styled.a`
     outline: none;
 
     @media ${props => props.theme.breakpoints.md} {
-        right: 30px;
-        font-size: 12px;
+        right: 20px;
+        font-size: 10px;
+        height: 40px;
     }
 
     @media ${props => props.theme.breakpoints.sm} {
-        right: 30px;
-        font-size: 10px;
+        right: 10px;
+        font-size: 8px;
+        height: 40px;
     }
 `

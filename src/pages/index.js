@@ -1,6 +1,5 @@
 import Acomplishments from '../components/Acomplishments/Acomplishments';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
-import BackToTopButton from '../components/BackToTop/BackToTopButton';
 import Hero from '../components/Hero/Hero';
 import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
@@ -20,7 +19,6 @@ const Home = () => {
       <Technologies />
       <Timeline />
       <Acomplishments />
-      <BackToTopButton />
     </Layout>
   );
 };
