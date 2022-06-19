@@ -2,8 +2,8 @@ import React from 'react';
 import { AiFillFileText, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { Tooltip } from '@material-ui/core';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkItemA, LinkList, LinkTitle, Slogan, SocialIcons, SocialIconsContainer } from './FooterStyles';
+import { Resume, Github, Linkedin } from '../../constants/constants';
 
 const Footer = () => {
   return (
@@ -17,12 +17,12 @@ const Footer = () => {
             <LinkTitle>Socials</LinkTitle>
             <LinkItem>
               <Tooltip title={<h2>Github</h2>} placement="bottom">
-                <SocialIcons href="https://github.com/hueiiming/" target="_blank">
+                <SocialIcons href={Github} target="_blank">
                   <AiFillGithub size="3rem" />
                 </SocialIcons>
               </Tooltip>
               <Tooltip title={<h2>LinkedIn</h2>} placement="bottom">
-                <SocialIcons href="https://www.linkedin.com/in/lim-huei-ming/" target="_blank">
+                <SocialIcons href={Linkedin} target="_blank">
                   <AiFillLinkedin size="3rem" />
                 </SocialIcons>
               </Tooltip>
@@ -32,7 +32,7 @@ const Footer = () => {
             <LinkTitle>Resume</LinkTitle>
             <LinkItem>
               <Tooltip title={<h2>Resume</h2>} placement="bottom">
-                <SocialIcons href="https://drive.google.com/file/d/1LqqaNsr2vqVm3g10cLDhjamg4ZitSjkD/view?usp=sharing" target="_blank">
+                <SocialIcons href={Resume} target="_blank">
                   <AiFillFileText size="3rem" />
                 </SocialIcons>
               </Tooltip>

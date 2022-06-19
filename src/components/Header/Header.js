@@ -4,6 +4,7 @@ import { AiFillFileText, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 import { Tooltip } from '@material-ui/core';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import { Resume, Github, Linkedin } from '../../constants/constants';
 
 const Header = () =>  (
   <Container>
@@ -38,18 +39,18 @@ const Header = () =>  (
     </Div2>
     <Div3>
       <Tooltip title={<h1>Resume</h1>}>
-        <SocialIcons href="https://drive.google.com/file/d/1LqqaNsr2vqVm3g10cLDhjamg4ZitSjkD/view?usp=sharing" target="_blank">
+        <SocialIcons href={Resume} target="_blank">
           <AiFillFileText size="3rem" />
           {/* <ImgResume src='/images/resume.png' /> */}
         </SocialIcons>
       </Tooltip>
       <Tooltip title={<h1>Github</h1>}>
-        <SocialIcons href="https://github.com/hueiiming/" target="_blank">
+        <SocialIcons href={Github} target="_blank">
           <AiFillGithub style={{cursor: "pointer"}} size="3rem" />
         </SocialIcons>
       </Tooltip>
       <Tooltip title={<h1>LinkedIn</h1>}>
-        <SocialIcons href="https://www.linkedin.com/in/lim-huei-ming/" target="_blank">
+        <SocialIcons href={Linkedin} target="_blank">
           <AiFillLinkedin style={{cursor: "pointer"}} size="3rem" />
         </SocialIcons>
       </Tooltip>
