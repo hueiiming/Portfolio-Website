@@ -45,7 +45,7 @@ const Footer = () => {
         </LinkList>
         <SocialIconsContainer>
           <CompanyContainer>
-            <Slogan>Always improving and learning</Slogan>
+            <Slogan>Always Learning & Improving</Slogan>
           </CompanyContainer>
         </SocialIconsContainer>
       </FooterWrapper>
