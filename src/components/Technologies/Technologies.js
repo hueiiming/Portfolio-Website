@@ -1,6 +1,6 @@
 import React from 'react';
 import { DiCode, DiFirebase, DiJenkins } from 'react-icons/di';
-import { SiJava, SiJavascript, SiPython, SiPostgresql, SiTypescript, SiMysql, SiFirebase } from 'react-icons/si';
+import { SiJava, SiJavascript, SiPython, SiPostgresql, SiTypescript, SiMysql, SiFirebase, SiJenkins, SiGit } from 'react-icons/si';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -55,7 +55,12 @@ const Technologies = () =>  (
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
             Experience with <br />
-            JBehave, REST APIs, Jenkins
+            JBehave, REST APIs, Jenkins, Git
+            <br /><br /><br />
+            <SiJenkins size="2rem"></SiJenkins>
+            &nbsp;&nbsp;
+            <SiGit size="2rem"></SiGit>
+            &nbsp;&nbsp;
           </ListParagraph>
         </ListContainer>
       </ListItem>
