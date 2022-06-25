@@ -49,6 +49,6 @@ export const TimeLineData = [
   },
 ];
 
-export const Resume = 'https://drive.google.com/file/d/1xuJwPjBt5AUuNkOoeHc5S4-sMYtRkWj7/view?usp=sharing';
+export const Resume = 'https://drive.google.com/file/d/1IqKG1xHQJboRRpNR05_8cPGCRxqOE7Zh/view?usp=sharing';
 export const Github = 'https://github.com/hueiiming/';
 export const Linkedin = 'https://www.linkedin.com/in/lim-huei-ming/';
