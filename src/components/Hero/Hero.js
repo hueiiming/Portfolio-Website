@@ -3,12 +3,14 @@ import React from 'react';
 import { SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { Section, LeftSection, Img } from './HeroStyles';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFutbol } from '@fortawesome/free-solid-svg-icons'
 
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        <Img src="/images/Linkedin.jpg" />
+        <Img src="/images/hm.png" />
         <br />
         Huei Ming
       </SectionTitle>
