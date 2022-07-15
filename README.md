@@ -4,7 +4,8 @@ My Personal Portfolio made using React JS and Next JS
 <br />
 Link to my website: https://limhueiming.com/
 
-<a href="https://drive.google.com/uc?export=view&id=12e9KzLWc-tl289HIwSgqngCYOvsKHUdw"><img src="https://drive.google.com/uc?export=view&id=12e9KzLWc-tl289HIwSgqngCYOvsKHUdw" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+<img width="1495" alt="Screenshot 2022-06-30 at 6 12 30 PM" src="https://user-images.githubusercontent.com/61011188/179132631-78ac3492-65c6-4e57-935f-1cfc9ad45500.png">
+
   
 ## Installation
 Install all dependencies
