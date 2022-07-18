@@ -4,17 +4,6 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
-const projectsDemo = [{
-  title: 'Project 1',
-  description: 'This is my project 1'
-},{
-  title: 'Project 2',
-  description: 'This is my project 2'
-},{
-  title: 'Project 3',
-  description: 'This is my project 3'
-}];
-
 const Projects = () => (
   <Section id="projects">
     <SectionDivider />

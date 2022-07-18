@@ -1,9 +1,18 @@
 export const projects = [
   {
+    title: 'Twitter Clone',
+    description: "Twitter clone Web Application with Tweet, Retweet, Like, Follow/Unfollow, Delete Tweets and Profile functions.",
+    image: '/images/twitter_clone.png',
+    tags: ['PHP', 'MySQL', 'JavaScript', 'JQuery', 'Ajax'],
+    source: 'https://github.com/hueiiming/Twitter_Clone',
+    visit: 'https://github.com/hueiiming/Twitter_Clone',
+    id: 0,
+  },
+  {
     title: 'LifeX',
     description: "LifeX is a J2EE Web Application where users can connect with each other.",
-      image: '/images/LifeX.png',
-      tags: ['Java', 'J2EE', 'Jsp & Servlets', 'MySQL'],
+    image: '/images/LifeX.png',
+    tags: ['Java', 'J2EE', 'Jsp & Servlets', 'MySQL'],
     source: 'https://github.com/hueiiming/LifeX',
     visit: 'https://github.com/hueiiming/LifeX',
     id: 0,
