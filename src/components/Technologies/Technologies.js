@@ -1,6 +1,6 @@
 import React from 'react';
 import { DiCode, DiFirebase, DiJenkins } from 'react-icons/di';
-import { SiJava, SiJavascript, SiPython, SiPostgresql, SiTypescript, SiMysql, SiFirebase, SiJenkins, SiGit } from 'react-icons/si';
+import { SiJava, SiJavascript, SiPython, SiPostgresql, SiTypescript, SiMysql, SiFirebase, SiJenkins, SiGit, SiPhp, SiSpring } from 'react-icons/si';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -19,7 +19,7 @@ const Technologies = () =>  (
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Java, JavaScript, TypeScript, Python, SQL, ABAB
+            Java, JavaScript, TypeScript, Python, SQL, PHP
             <br /> <br />
             <SiJava size="2rem"></SiJava>
             &nbsp;&nbsp;
@@ -30,6 +30,8 @@ const Technologies = () =>  (
             <SiPython size="2rem"></SiPython>
             &nbsp;&nbsp;
             <SiPostgresql size="2rem"></SiPostgresql>
+            &nbsp;&nbsp;
+            <SiPhp size="2rem"></SiPhp>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -39,7 +41,7 @@ const Technologies = () =>  (
           <ListTitle>Databases</ListTitle>
           <ListParagraph>
             Experience with <br />
-            PostgreSQL, DBeaver, MySQL, Google Firebase 
+            PostgreSQL, MySQL, Google Firebase 
             <br /><br />
             <SiPostgresql size="2rem"></SiPostgresql>
             &nbsp;&nbsp;
@@ -55,12 +57,13 @@ const Technologies = () =>  (
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
             Experience with <br />
-            JBehave, REST APIs, Jenkins, Git
+            Jenkins, Git, Spring MVC, JBehave, REST APIs
             <br /><br /><br />
             <SiJenkins size="2rem"></SiJenkins>
             &nbsp;&nbsp;
             <SiGit size="2rem"></SiGit>
             &nbsp;&nbsp;
+            <SiSpring size="2rem"></SiSpring>
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Twitter Clone',
-    description: "Twitter clone Web Application with Tweet, Retweet, Like, Follow/Unfollow, Delete Tweets and Profile functions.",
+    description: "Twitter clone Web Application with Tweet, Retweet, Like, Follow/Unfollow, Delete Tweets & Profile functions.",
     image: '/images/twitter_clone.png',
     tags: ['PHP', 'MySQL', 'JavaScript', 'JQuery', 'Ajax'],
     source: 'https://github.com/hueiiming/Twitter_Clone',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'E-Payer',
-    description:"E-Payer is a cashless mobile payment app where users can send and receive payments seamlessly.",
+    description:"E-Payer is a cashless mobile payment app where users can send & receive payments seamlessly.",
     image: '/images/E-Payer_Poster_page-0001.jpg',
     tags: ['TypeScript', 'Firebase', 'Ionic'],
     source: 'https://github.com/hueiiming/E-Payer',
@@ -29,14 +29,14 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2019, 
+  { year: 2022,
     title: 'Software Engineer Intern',
-    company: 'SAP Asia',
-    address: "https://www.sap.com/sea/index.html",
-    date: 'Sep 2019 - Feb 2020',
-    text1: "Developed new Automation Test Framework written in Java using JBehave API along with Serenity-BDD & Maven to automate server testing ",
-    text2: "Enhanced the quality & duration of testing by at least 50% by replacing Redundant & Duplicate Test cases",
-    text3: "Integrated Framework to Github & Jenkins with CI/CD Pipeline to automate server testing",
+    company: 'MVI Technologies',
+    address: "https://www.mvitech.com/",
+    date: 'May 2022 - Jul 2022',
+    text1: "Developed M^Dynamics Framework classes using Java, Gradle & PostgreSQL queries to generate reports for banking clients",
+    text2: "Debugged & maintained codes to support Senior Software Engineers with project deployment",
+    text3: "Worked on Frontend & Backend Web Application using Spring MVC & Thymeleaf",
   },
   { year: 2020,
     title: 'Web Developer',
@@ -47,17 +47,17 @@ export const TimeLineData = [
     text2: "Resolved Web page issues with backend support & debugging",
     text3: "",
   },
-  { year: 2022,
+  { year: 2019, 
     title: 'Software Engineer Intern',
-    company: 'MVI Technologies',
-    address: "https://www.mvitech.com/",
-    date: 'May 2022 - Jul 2022',
-    text1: "Currently developing M^Dynamics Framework classes using Java, Gradle and PostgreSQL queries to generate reports for banking clients",
-    text2: "Debugging and maintaining codes to support Senior Software Engineers with project deployment",
-    text3: "",
+    company: 'SAP Asia',
+    address: "https://www.sap.com/sea/index.html",
+    date: 'Sep 2019 - Feb 2020',
+    text1: "Developed new Automation Test Framework written in Java using JBehave API along with Serenity-BDD & Maven to automate server testing ",
+    text2: "Enhanced the quality & duration of testing by at least 50% by replacing Redundant & Duplicate Test cases",
+    text3: "Integrated Framework to Github & Jenkins with CI/CD Pipeline to automate server testing",
   },
 ];
 
-export const Resume = 'https://drive.google.com/file/d/11_BSIa-FsZ-1WRUt9pGiXJBWmscAC-a1/view?usp=sharing';
+export const Resume = 'https://drive.google.com/file/d/1Fa9bSLFhymWSwohyL89B07iJfohlKnlA/view?usp=sharing';
 export const Github = 'https://github.com/hueiiming/';
 export const Linkedin = 'https://www.linkedin.com/in/lim-huei-ming/';
