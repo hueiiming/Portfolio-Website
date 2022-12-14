@@ -50,7 +50,7 @@ export const Box = styled.div`
 export const BoxNum = styled.h5`
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 40px;
   letter-spacing: 0.01em;
   color: #FFFFFF;

@@ -4,7 +4,9 @@ import { Section, SectionDivider, SectionTitle, SectionText } from '../../styles
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const dataSmu = [
-
+  { number: 'Google Ignite!', text: '4 week product sprint to develop flutter mobile app'},
+  { number: 'Meta Upskill 2022', text: 'Software Engineering Certificate Scholarship Program'},
+  { number: 'Project Heartcode 2022', text: 'Community Service Project'},
 ];
 const dataNyp = [
   { number: '1st', text: 'iCodeiTell Competition'},

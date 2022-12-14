@@ -15,7 +15,7 @@ const Hero = () => (
         Huei Ming
       </SectionTitle>
       <SectionText>
-        I am a passionate and eager to learn Software Engineer. <br  /> I am a Undergraduate at SMU majoring in Software Engineering.
+        I am a passionate and eager to learn Software Engineering undergraduate at Singapore Management University.
       </SectionText>
       <Button onClick={() => window.open('https://www.linkedin.com/in/lim-huei-ming/')}>Learn More</Button>
     </LeftSection>
