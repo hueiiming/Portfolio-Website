@@ -29,16 +29,6 @@ const Footer = () => {
             </LinkItem>
           </LinkColumn>
           <LinkColumn>
-            <LinkTitle>Resume</LinkTitle>
-            <LinkItem>
-              <Tooltip title={<h2>Resume</h2>} placement="bottom">
-                <SocialIcons href={Resume} target="_blank">
-                  <AiFillFileText size="3rem" />
-                </SocialIcons>
-              </Tooltip>
-            </LinkItem>
-          </LinkColumn>
-          <LinkColumn>
             <LinkTitle>Email</LinkTitle>
             <LinkItemA href="mailto:limhueiming2016@gmail.com">limhueiming2016@gmail.com</LinkItemA>
           </LinkColumn>
