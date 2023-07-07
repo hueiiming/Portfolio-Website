@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillFileText, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 import { Tooltip } from '@material-ui/core';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
-import { Resume, Github, Linkedin } from '../../constants/constants';
+import { Github, Linkedin } from '../../constants/constants';
 
 const Header = () =>  (
   <Container>
@@ -38,12 +38,6 @@ const Header = () =>  (
         </li>
     </Div2>
     <Div3>
-      <Tooltip title={<h1>Resume</h1>}>
-        <SocialIcons href={Resume} target="_blank">
-          <AiFillFileText size="3rem" />
-          {/* <ImgResume src='/images/resume.png' /> */}
-        </SocialIcons>
-      </Tooltip>
       <Tooltip title={<h1>Github</h1>}>
         <SocialIcons href={Github} target="_blank">
           <AiFillGithub style={{cursor: "pointer"}} size="3rem" />
