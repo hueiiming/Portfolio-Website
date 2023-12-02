@@ -34,6 +34,7 @@ export const TimeLineData = [
     company: 'Agoda',
     address: "https://www.agoda.com/",
     date: 'Aug 2023 - Dec 2023',
+    tech: "Scala, Kafka, Docker, Grafana, Cucumber",
     text1: "Under Booking.com Integration team",
     text2: "Supplying and maintaining price listings of hotels to Agoda using distributed systems",
     text3: "",
@@ -43,6 +44,7 @@ export const TimeLineData = [
     company: 'foodpanda',
     address: "https://www.foodpanda.sg/",
     date: 'May 2023 - Jul 2023',
+    tech: "Go (Golang), Git, MySQL, Redis, Docker, Datadog",
     text1: "Spearheaded the development and maintenance of foodpanda’s backend API systems," +
         " streamlining checkout and payment processes for millions of users",
     text2: "Showcased consistent Agile and Git workflow engagement, from code changes and" +
@@ -56,6 +58,7 @@ export const TimeLineData = [
     company: 'MVI Technologies',
     address: "https://www.mvitech.com/",
     date: 'May 2022 - Jul 2022',
+    tech: "Java, Spring MVC, PostgreSQL",
     text1: "Developed M^Dynamics Framework classes using Java, Gradle & PostgreSQL queries to generate reports for banking clients",
     text2: "Debugged & maintained codes to support Senior Software Engineers with project deployment",
     text3: "Worked on Frontend & Backend Web Application using Spring MVC & Thymeleaf",
@@ -65,6 +68,7 @@ export const TimeLineData = [
     company: 'SAP Asia',
     address: "https://www.sap.com/sea/index.html",
     date: 'Sep 2019 - Feb 2020',
+    tech: "Java, JBehave, Jenkins",
     text1: "Developed new Automation Test Framework written in Java using JBehave API along with Serenity-BDD & Maven to automate server testing ",
     text2: "Enhanced the quality & duration of testing by at least 50% by replacing Redundant & Duplicate Test cases",
     text3: "Integrated Framework to Github & Jenkins with CI/CD Pipeline to automate server testing",

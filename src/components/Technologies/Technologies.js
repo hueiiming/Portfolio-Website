@@ -1,6 +1,19 @@
 import React from 'react';
 import { DiCode, DiFirebase, DiJenkins } from 'react-icons/di';
-import { SiJava, SiJavascript, SiPython, SiPostgresql, SiTypescript, SiMysql, SiFirebase, SiJenkins, SiGit, SiPhp, SiSpring } from 'react-icons/si';
+import {
+  SiJava,
+  SiJavascript,
+  SiPython,
+  SiPostgresql,
+  SiTypescript,
+  SiMysql,
+  SiFirebase,
+  SiJenkins,
+  SiGit,
+  SiPhp,
+  SiSpring,
+  SiScala, SiGo
+} from 'react-icons/si';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -19,15 +32,19 @@ const Technologies = () =>  (
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Java, JavaScript, TypeScript, Python, SQL, PHP
+            Java, Python, Go(Golang), Scala, JavaScript, TypeScript, SQL, PHP
             <br /> <br />
             <SiJava size="2rem"></SiJava>
+            &nbsp;&nbsp;
+            <SiPython size="2rem"></SiPython>
+            &nbsp;&nbsp;
+            <SiGo></SiGo>
+            &nbsp;&nbsp;
+            <SiScala></SiScala>
             &nbsp;&nbsp;
             <SiJavascript size="2rem"></SiJavascript>
             &nbsp;&nbsp;
             <SiTypescript size="2rem"></SiTypescript>
-            &nbsp;&nbsp;
-            <SiPython size="2rem"></SiPython>
             &nbsp;&nbsp;
             <SiPostgresql size="2rem"></SiPostgresql>
             &nbsp;&nbsp;

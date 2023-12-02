@@ -97,6 +97,8 @@ const Timeline = () => {
                 <LinkItem onClick={() => window.open(item.address)}>{item.company}</LinkItem>
                 <CarouselItemText>{item.date}</CarouselItemText>
                 <br />
+                <CarouselItemText><i><b>Technologies:</b> {item.tech}</i></CarouselItemText>
+                <br/>
                 <CarouselItemText>{item.text1}</CarouselItemText>
                 <br />
                 <CarouselItemText>{item.text2}</CarouselItemText>
