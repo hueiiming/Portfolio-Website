@@ -66,7 +66,7 @@ export const BoxNum = styled.h5`
     line-height: 32px;
   }
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 24px;
+    font-size: 10px;
     line-height: 26px;
 }
 `
@@ -89,7 +89,7 @@ export const BoxText = styled.p`
   };
 
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 14px;
   }
 `
