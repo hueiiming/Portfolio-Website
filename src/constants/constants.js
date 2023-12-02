@@ -29,6 +29,28 @@ export const projects = [
 ];
 
 export const TimeLineData = [
+  { year: 2023,
+    title: 'Software Engineer Intern',
+    company: 'Agoda',
+    address: "https://www.agoda.com/",
+    date: 'Aug 2023 - Dec 2023',
+    text1: "Under Booking.com Integration team",
+    text2: "Supplying and maintaining price listings of hotels to Agoda using distributed systems",
+    text3: "",
+  },
+  { year: 2023,
+    title: 'Software Engineer Intern',
+    company: 'foodpanda',
+    address: "https://www.foodpanda.sg/",
+    date: 'May 2023 - Jul 2023',
+    text1: "Spearheaded the development and maintenance of foodpanda’s backend API systems," +
+        " streamlining checkout and payment processes for millions of users",
+    text2: "Showcased consistent Agile and Git workflow engagement, from code changes and" +
+        " testing to monitoring and deployments across APAC and Europe",
+    text3: "Enhanced software development lifecycle by implementing feature flags for controlled rollouts," +
+        " A/B testing, and seamless feature toggling; additionally, deployed Redis caching solution for vendor's database," +
+        " improving efficiency and scalability while reducing database risks",
+  },
   { year: 2022,
     title: 'Software Engineer Intern',
     company: 'MVI Technologies',
@@ -38,16 +60,7 @@ export const TimeLineData = [
     text2: "Debugged & maintained codes to support Senior Software Engineers with project deployment",
     text3: "Worked on Frontend & Backend Web Application using Spring MVC & Thymeleaf",
   },
-  { year: 2020,
-    title: 'Web Developer',
-    company: 'Parkway College of Nursing and Allied Health',
-    address: "https://www.parkwaycollege.edu.sg/",
-    date: 'Mar 2020 - Apr 2020',
-    text1: "Developed & Improved Student portal using JavaScript along with D2L LMS Brightspace API system to perform REST API calls", 
-    text2: "Resolved Web page issues with backend support & debugging",
-    text3: "",
-  },
-  { year: 2019, 
+  { year: 2019,
     title: 'Software Engineer Intern',
     company: 'SAP Asia',
     address: "https://www.sap.com/sea/index.html",
